@@ -1,0 +1,36 @@
+# Xcode
+#
+# gitignore contributors: remember to keep this file platform-agnostic
+# gitignore test case examples: https://github.com/github/gitignore/blob/main/Global/Xcode.gitignore
+
+## User-specific
+*.xcuserdatad
+*.xcworkspace
+*.proj.xcworkspace
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# *.swiftpm
+.build/
+Packages/
